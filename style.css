@@ -1,0 +1,335 @@
+body{
+    font-family: "Montserrat", serif;
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  overflow:hidden;/* overflow mei jo bhi aapka extraa text hotaa hai uska hotaa hai ki dikhana hai yaa nhi jaise hum ek scroll bar use krte hain overflow: hidden kaa mtlb jo bhi extra content hogaa vo hide hojaayega aur jaankari k liye mdn */
+}
+
+.main{
+  display: flex;
+  height: 100vh;
+  padding: 0.5rem;
+  margin-right: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.sidebar{
+  background-color: #000;
+  width: 340px;
+  border-radius: 1rem; /*1rem = 16px */ 
+}
+
+.main-content{
+  background-color: #121212;
+  flex:1;  /* aur log chahe jitni bhi jagah le rhe hon baaki ki jo bhi bachi hui jagah hai vo mujhe de do */
+  border-radius: 1rem;
+  overflow:auto;
+}
+
+.music-player{
+  background-color: black;
+  position: fixed; /* with the movement of the page iss prr koi farak naa pdee fixed rhe... */
+  bottom: 0px;
+  width: 100%;
+  height: 72px;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav{
+  background-color: #121212;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  height: 100px;
+  padding: 0.5rem 0.75rem;
+}
+
+.nav-option{
+  background-color: #121212;
+  line-height: 2.5rem;
+  opacity: 0.7;
+  padding: 0.5rem 0.75rem;
+}
+
+.nav-option:hover{
+  opacity:1;
+}
+
+.nav-option i{
+  font-size: 1.25rem;
+}
+
+.nav-option a{
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.library img{
+  height: 1.25rem;
+  width: 1.25rem;
+  
+}
+
+.library{
+  background-color: #121212;
+  padding: 0.25rem 0.5rem;
+  border-radius: 1rem;
+  height: 100%;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.options{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #121212;
+}
+
+.lib-option img{
+  height: 1.25rem;
+  width:1.25rem;
+}
+
+.library img a{
+  font-size: 1rem;
+  font-weight: 650;
+  opacity:0.7;
+}
+
+.library i{
+  position:relative;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  background-color: #121212;
+  margin-right: 0.2rem;
+}
+
+.icons {
+  font-size: 1.25rem;
+  display: flex;
+}
+
+.icons i{
+  opacity: 0.7;
+  margin-right: 1rem;
+  
+}
+
+.icons i:hover{
+  opacity:1;
+}
+
+.box{
+  background-color: #232323;
+  height: 8rem;
+  border-radius: 0.75rem;
+  margin: 0.75rem 0 1.75rem 0;
+  padding: 0.75rem 1rem;
+}
+
+.box-p1{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.box-p2{
+  font-size:0.85rem;
+  opacity:0.9;
+}
+
+.badge{
+  background-color: #fff;
+  border: none;
+  border-radius: 100px;
+  padding: 0.25rem 1rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+  width: fit-content; /* jo bhi content hai vo saara fit hojaayege */
+}
+
+.dark-badge{
+  background-color: #000;
+  color: #fff;
+}
+
+.sticky-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.75rem 0.5rem 1.75rem;
+  position: sticky;
+  top: 0;
+  background-color: #121212;
+  z-index: 10;
+}
+
+.arrows img{
+  background-color: #000;
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 0.5rem 0.5rem;
+  justify-content: center;
+}
+
+.login i{
+  background-color: #000;
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 0.5rem 0.5rem;
+}
+
+@media (max-width: 1000px){
+    .hide{
+      display:none;
+    }
+}
+
+.cards-plate{
+  display: flex;
+  justify-content:flex-start; 
+  flex-wrap:wrap;
+  gap: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.cards-plate img{
+  height: 13rem;
+  border-radius: 0.7rem;
+}
+
+.card{
+  height: 19rem;
+  background-color: #1A1A1A;
+  border-radius: 0.7rem;
+  padding: 0.9rem 0.75rem;
+  margin: 0 0 1rem 0;
+}
+
+.card:hover{
+  background-color: #1e1e1e;
+}
+
+.heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 0.25rem 1.5rem;
+}
+
+.main-content{
+  margin-left: 0.75rem;
+}
+
+.footer{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line{
+  width: 85%;
+  height: 50%;
+  border-top: 1px solid white;
+  opacity: 0.3;
+}
+
+.song{
+  display: flex;
+}
+
+.pic img{
+  height: 3.5rem;
+  width:  3.5rem;
+  border-radius: 4px;
+}
+
+.pic{
+  padding: 0.5rem;
+  margin-left: 8px;
+}
+
+.name{
+  font-size: 15px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.music-player{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+
+.butt img{
+  height: 1rem;
+  /* width:1rem; */
+  /* padding: 0.9rem 0.5rem;  */
+  margin-right: 2rem;
+  opacity: 0.7;
+}
+
+.butt img:hover{
+  opacity: 1;
+  /* height: 1.05rem;
+  width: 1.05rem; */
+}
+
+
+.butt{
+  position:relative;
+  margin-left: 40px;
+}
+
+.playback-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar{
+  width: 300%;
+  appearance: none;
+  background-color: transparent;
+  cursor: pointer;
+
+}
+
+.progress-bar::-webkit-slider-runnable-track{
+  background-color: #ddd;
+  border-radius: 100px;
+  height: 0.2px;
+}
+
+.progress-bar::-webkit-slider-thumb{
+  appearance: none;
+  height: 1rem;
+  width: 1rem;
+  background-color: #1bd760;
+  border-radius: 50%;
+  margin-top: -7.5px;
+}
+
+.queue{
+  margin-top: 13px;
+  margin-right: 10px;
+}
+
+.player{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: -250px;
+}

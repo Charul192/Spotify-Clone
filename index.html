@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assests/logo.png"/>  <!-- title mein logo yaa picture add krne k liyee -->
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity:1">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div> 
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option 
+                    nav-option">
+                    <!-- nav-option isiliye likhaa taan ki nav-option wali bhi saari styling isse mil jaaye -->
+                        <img src="./assests/library_icon.png" alt="library" />
+                        <a href="#">Your Library</a>
+                    </div> 
+                    <div class="icons">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                </div> 
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create Playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav" >
+                <div class="arrows">
+                <img src="./assests/backward_icon.png" alt="backward_icon" />
+                <img src="./assests/forward_icon.png" alt="forward_icon" class="hide"/>
+                </div>
+                <div class="login">
+                    <button class="badge hide">Explore Premium</button>
+                    <button class="badge dark-badge">
+                    Install App</button>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="heading">
+                <h2>Recently Played</h2>
+                <p style="opacity: 0.5">Show more..</p>
+            </div>
+            <div class="cards-plate">
+                <div class="card">
+                    <img src="./assests/Wishlist.png" alt="Wishlist">
+                    <b><p style="opacity: 0.9">Wishlist</p></b>
+                    <p style="opacity: 0.5">Dino James, Kaprila</p>
+                </div>
+                <div class="card">
+                    <img src="./assests/Blend.png" alt="Blend">
+                    <b><p style="opacity: 0.9">Blend</p></b>
+                    <p style="opacity: 0.5">Blend</p>
+                </div>
+                <div class="card">
+                    <img src="./assests/Divine.png" alt="Divine">
+                    <b><p style="opacity: 0.9">Divine</p></b>
+                    <p style="opacity: 0.5">Krishnahazar</p>
+                </div>
+                <div class="card hide">
+                    <img src="./assests/PYAAR.png" alt="PYAAR?">
+                    <b><p style="opacity: 0.9">PYAAR?</p></b>
+                    <p style="opacity: 0.5">Naam Sujal</p>
+                </div>
+                
+            </div>
+            <div class="heading">
+                <h2>Spotify original & exclusive podcasts</h2>
+                <p style="opacity: 0.5">Show more..</p>
+            </div>
+            <div class="cards-plate">
+                
+                <div class="card">
+                    <img src="./assests/Old_is_gold.png" alt="Old is gold">
+                    <b><p style="opacity: 0.9">Old is gold</p></b>
+                    <p style="opacity: 0.5">Kishore kumar</p>
+                </div>
+                <div class="card">
+                    <img src="./assests/Admirin_you.png" alt="Admirin_you">
+                    <b><p style="opacity: 0.9">Admirin' you</p></b>
+                    <p style="opacity: 0.5">Karan Aujla</p>
+                </div>
+                <div class="card">
+                    <img src="./assests/Lamhey.png" alt="Lamhey">
+                    <b><p style="opacity: 0.9">Lamhey</p></b>
+                    <p style="opacity: 0.5">Anubha Bajaj</p>
+                </div>
+                
+                <div class="card hide">
+                    <img src="./assests/Radio.png" alt="9:45 Radio">
+                    <b><p style="opacity: 0.9">9:45 Radio</p></b>
+                    <p style="opacity: 0.5">Prabh Singh,Jay Trak,Rooh..</p>
+                </div>
+            </div>
+            <div class="heading">
+                <h2>Featured Charts</h2>
+                <p style="opacity: 0.5">Show more..</p>
+            </div>
+            <div class="cards-plate feature">
+                
+                <div class="card">
+                    <img src="./assests/card6img.jpeg" alt="Top 50 - India">
+                    <b><p style="opacity: 0.9">Top 50 - India</p></b>
+                    <p style="opacity: 0.5">Your daily updates of<br> the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="./assests/card5img.jpeg" alt="Top 50 - Global">
+                    <b><p style="opacity: 0.9">Top 50 - Global</p></b>
+                    <p style="opacity: 0.5">Your daily updates of<br> the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="./assests/card4img.jpeg" alt="Lamhey">
+                    <b><p style="opacity: 0.9">Alter Ego</p></b>
+                    <p style="opacity: 0.5">Ready naa</p>
+                </div>
+            </div>
+<div class="footer">
+    <div class="line"></div>
+</div>
+            
+                </div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="song">
+                <div class="pic">
+                <img src="./assests/Divine.png" alt="Divine">
+            </div>
+            <div class="name">
+                <p>Divine<br>Krishnahazar</p>
+            </div>
+            </div>
+            <div class="player">
+                <div class="butt">
+                    <img src="./assests/player_icon1.png" alt="shuffle">
+                    <img src="./assests/player_icon2.png" alt="previous">
+                    <img src="./assests/play_musicbar.png" alt="play" style="opacity: 1; height: 2rem">
+                    <img src="./assests/player_icon4.png" alt="next">
+                    <img src="./assests/player_icon5.png" alt="shuffle">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="queue">
+                <img src="./assests/Side-2.png" alt=" side">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
