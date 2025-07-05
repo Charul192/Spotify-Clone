@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/95f0fa7d-4b11-4096-be4d-80329892bd08)# Spotify Clone - Web Music Player 🎵
+# Spotify Clone - Web Music Player 🎵
 
 A visually stunning Spotify-inspired web music player UI built using **HTML**, **CSS**, and **Font Awesome**. This project mimics Spotify's sleek layout with a sidebar, playlist cards, and an interactive music player bar.
 
@@ -17,6 +17,7 @@ A visually stunning Spotify-inspired web music player UI built using **HTML**, *
 - Font Awesome Icons
 
 ## 📁 Folder Structure
+```bash
 📁 project-folder/ ├── index.html 
                    ├── style.css 
                    ├── assests/ 
@@ -24,12 +25,14 @@ A visually stunning Spotify-inspired web music player UI built using **HTML**, *
                    │ ├── Divine.png 
                    │ ├── Wishlist.png 
                    │ └── ... other images
-
+```
 
 ## 📷 Preview
 
 ![Preview Screenshot](https://github.com/user-attachments/assets/76bc36fb-5b67-44f1-a70f-3f92bf5cc3a3)
-(https://github.com/user-attachments/assets/d4ea1c1d-75e5-40e5-a30e-390af3453114)
+<br/>
+<br/>
+![image](https://github.com/user-attachments/assets/95f0fa7d-4b11-4096-be4d-80329892bd08)
 
 
 ## 📌 Notes
@@ -45,4 +48,6 @@ A visually stunning Spotify-inspired web music player UI built using **HTML**, *
 
 ---
 
-Made with ❤️
+👩‍💻 Author
+- Made with ❤️ by Charul192
+- Feel free to connect or contribute!
